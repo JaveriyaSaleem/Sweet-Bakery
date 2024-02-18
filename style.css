@@ -1,39 +1,49 @@
-body{
-    max-width: 100%;
-    height: auto;
-    font-size: 16px;
+*{
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-family: sans-serif;
 }
+
+
 nav{
     display:flex;
     justify-content: space-between;
-    align-items: center;
-    border-style: solid;
-    width: 80%;
+    align-items: center;  
+    /* border-style: solid; */
+    width: 90%;
     font-family: sans-serif;
     margin-left: 90px;
     padding-top:20px ;
+    padding-bottom: 30px;
+    
 }
 .imagediv{
-    width:130px;
+    width:120px;
     /* border-style: solid; */
 }
 .align{
     display:flex;
     justify-content: space-between;
-    gap: 80px;
+    align-items: center;
+    gap: 120px;
     /* border-style:solid; */
 }
 .ul{
-    display: inline-flex;
+    font-weight: lighter;
+    font-family: sans-serif;
+    color: #4B4342;
+    display: flex;
    justify-content: space-between;
-   gap: 30px;
-    list-style: none;
+   gap: 40px;
+ list-style: none;
 }
 #icondiv{
-        display: flex;
+    display: flex;
     justify-content: space-between;
     gap: 30px;
     align-items: center;
+    color: #4B4342;
 }
 #google+{
     width:80px
@@ -43,8 +53,80 @@ nav{
     border-style: solid;
     border-radius: 60px;
     padding: 8px 17px;
+    margin-right: 120px;
     background-color: #5fcac7;
     border-color: #5fcac7;
     font-size: 17px;
     color: white;
+}
+
+/* LANDING */
+.Cover{
+   position:unset;
+     width: 99.8%;
+    height: 140vh;
+    border-style: solid;
+    border: hidden;
+    background-color: rgba(0, 0, 0, 0.348);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    column-gap: 40px ;
+   
+      
+}
+.Cover::before{
+    content: '';
+    position:absolute;
+    left:0;
+    width: 99.8%;
+    height: 140vh;
+    background-image: url(images/bakery2-1920x1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: opacity(1) hue-rotate(1);
+    z-index: -2;
+ 
+}
+.cover2{
+     width: 1100px;
+    height: 100vh;
+    padding-left: 110px;
+    padding-top: 100px;
+}
+#h1cover{
+    width: 80%;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 4.5rem;
+    line-height: 86px;
+}
+
+#h2cover{
+    width: 80%;
+    color: #FFFFFF;
+    font-size: 2.625rem;
+    line-height: 52px;
+    margin-top: 40px;
+    font-weight: 500;
+    word-wrap: break-word;
+
+}
+#ordersweet{
+    display: block;
+    border: hidden;
+    border-style: solid;
+    border-radius: 60px;
+    padding: 10px 25px;
+    background-color: #5fcac7;
+    border-color: #5fcac7;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 150px;
+}
+    
 }
