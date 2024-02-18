@@ -183,7 +183,7 @@ nav{
 /* Speciality Complete */
 .magicdiv{
     border-style: solid;
-    background-color: #7dd3d0d9;
+    background-color: #68d3cfca;
     color: #FFFFFF;
     width: 1260px;
     height: 124vh;
@@ -202,7 +202,6 @@ nav{
 }
 .magicdiv2{
     border-style: solid;
-    background-color: #d37d7d00;
     border-radius: 10px;
     margin-left: 170px;
     line-height: 10px;
@@ -229,8 +228,8 @@ nav{
     line-height: 1.5;
     text-align: center;
 }
-#cakeicon{
-    font-size: 70px;
+.cakeicon{
+    font-size: 65px;
     align-items: center;
    
 }
@@ -244,8 +243,32 @@ nav{
     font-size: 1.125rem;
     font-weight: 500;
     padding: 10px 20px;
-
 }
- 
+ /* END OF MAGIC  */
+ .creaticon{
+    padding-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 40px;
+ }
+
+ #creationh1{
+    font-size: 2.8rem;
+    color: #4B4342;
+   
+ }
+ #pinkcake{
+    color: #FF91A4;
+ }
+ .creationdiv{
+
+
+ }
+ .creationimg{
+    
+ }
+
 
 
