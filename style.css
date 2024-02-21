@@ -1,335 +1,395 @@
-
 @font-face {
-    font-family:DMSans ;
-    src: url(fonts/DMSans-VariableFont_opsz\,wght.ttf);
+  font-family: DMSans;
+  src: url(fonts/DMSans-VariableFont_opsz\wght.ttf);
 }
-*{
-    margin: 0;
-    padding: 0;
-    font-style: normal;
-    font-family: DMSans, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-family: DMSans, sans-serif;
 }
 
-
-nav{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;  
-    /* border-style: solid; */
-    width: 90%;
-    font-family: sans-serif;
-    margin-left: 90px;
-    padding-top:20px ;
-    padding-bottom: 30px;
-    
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border-style: solid; */
+  width: 90%;
+  font-family: sans-serif;
+  margin-left: 90px;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
-.imagediv{
-    width:120px;
-    /* border-style: solid; */
+.imagediv {
+  width: 120px;
+  /* border-style: solid; */
 }
-.align{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 120px;
-    /* border-style:solid; */
+.align {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 120px;
+  /* border-style:solid; */
 }
-.ul{
-    font-weight: normal;
-    font-family: sans-serif;
-    color: #4B4342;
-    display: flex;
-   justify-content: space-between;
-   gap: 40px;
- list-style: none;
+.ul {
+  font-weight: normal;
+  font-family: sans-serif;
+  color: #4b4342;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  list-style: none;
 }
-#icondiv{
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-    align-items: center;
-    color: #4B4342;
+#icondiv {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+  color: #4b4342;
 }
-#google+{
-    width:80px
+#google + {
+  width: 80px;
 }
-#order{
-    border: hidden;
-    border-style: solid;
-    border-radius: 60px;
-    padding: 8px 17px;
-    margin-right: 120px;
-    background-color: #5fcac7;
-    border-color: #5fcac7;
-    font-size: 17px;
-    color: white;
+#order {
+  border: hidden;
+  border-style: solid;
+  border-radius: 60px;
+  padding: 8px 17px;
+  margin-right: 120px;
+  background-color: #5fcac7;
+  border-color: #5fcac7;
+  font-size: 17px;
+  color: white;
 }
 
 /* LANDING */
-.Cover{
-   position:unset;
-     width: 99.8%;
-    height: 140vh;
-    border-style: solid;
-    border: hidden;
-    background-color: rgba(0, 0, 0, 0.348);
-    background-size: cover;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    column-gap: 40px ;
-   
-      
+.Cover {
+  position: unset;
+  width: 99.8%;
+  height: 140vh;
+  border-style: solid;
+  border: hidden;
+  background-color: rgba(0, 0, 0, 0.348);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  column-gap: 40px;
 }
-.Cover::before{
-    content: '';
-    position:absolute;
-    left:0;
-    width: 99.8%;
-    height: 140vh;
-    background-image: url(images/bakery2-1920x1280.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    filter: opacity(1) hue-rotate(1);
-    z-index: -2;
- 
+.Cover::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 99.8%;
+  height: 140vh;
+  background-image: url(images/bakery2-1920x1280.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: opacity(1) hue-rotate(1);
+  z-index: -2;
 }
-.cover2{
-     width: 1100px;
-    height: 100vh;
-    padding-left: 110px;
-    padding-top: 100px;
+.cover2 {
+  width: 1100px;
+  height: 100vh;
+  padding-left: 110px;
+  padding-top: 100px;
 }
-#h1cover{
-    width: 80%;
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 4.5rem;
-    line-height: 86px;
+#h1cover {
+  width: 80%;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 4.5rem;
+  line-height: 86px;
 }
 
-#h2cover{
-    width: 80%;
-    color: #FFFFFF;
-    font-size: 2.625rem;
-    line-height: 52px;
-    margin-top: 40px;
-    font-weight: 500;
-    word-wrap: break-word;
+#h2cover {
+  width: 80%;
+  color: #ffffff;
+  font-size: 2.625rem;
+  line-height: 52px;
+  margin-top: 40px;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+#ordersweet {
+  display: block;
+  border: hidden;
+  border-style: solid;
+  border-radius: 60px;
+  padding: 10px 25px;
+  background-color: #5fcac7;
+  border-color: #5fcac7;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-top: 150px;
+}
 
-}
-#ordersweet{
-    display: block;
-    border: hidden;
-    border-style: solid;
-    border-radius: 60px;
-    padding: 10px 25px;
-    background-color: #5fcac7;
-    border-color: #5fcac7;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-    margin-top: 150px;
-}
-    
 /* END OF COVER */
-.specmain{
-    background-image: url(images/coverSpecialities.jpg);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
+.specmain {
+  background-image: url(images/coverSpecialities.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-#ourspec{
-    font-size: 3.3rem;
-    letter-spacing: 2px;
-    text-align: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    color: #4B4342;
-
+#ourspec {
+  font-size: 3.3rem;
+  letter-spacing: 2px;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: #4b4342;
 }
-.specimgpara{
-    
-    width: 1000px;
-    height: 600px;
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    flex-direction: column;
-    flex-flow: column wrap;
-    margin-left: 100px;
-    padding-left: 30px;
-    font-family: DMSans, sans-serif;
-    font-weight: 500;
-     
-
+.specimgpara {
+  width: 1000px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex-direction: column;
+  flex-flow: column wrap;
+  margin-left: 100px;
+  padding-left: 30px;
+  font-family: DMSans, sans-serif;
+  font-weight: 500;
 }
-.imgspec{
-    border-radius: 8px;
-    align-items: center;
-    width: 199px;
-    height: 155px;
-    object-fit: cover;
+.imgspec {
+  border-radius: 8px;
+  align-items: center;
+  width: 199px;
+  height: 155px;
+  object-fit: cover;
 }
-.paraspec{
-    font-size: 1.3rem;
-    padding-left: 40px;
-    padding-top: 20px;
-    color: #4B4342;
+.paraspec {
+  font-size: 1.3rem;
+  padding-left: 40px;
+  padding-top: 20px;
+  color: #4b4342;
 }
 
 /* Speciality Complete */
-.magicdiv{
-    border-style: solid;
-    background-color: #68d3cfca;
-    color: #FFFFFF;
-    width: 1260px;
-    height: 124vh;
+.magicdiv {
+  border-style: solid;
+  background-color: #68d3cfca;
+  color: #ffffff;
+  width: 1260px;
+  height: 124vh;
 }
-.magicdiv::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    width: 1260px;
-    height: 124vh;
-    background-image: url(images/cover\ of\ magic.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    z-index: -1;
+.magicdiv::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 1260px;
+  height: 124vh;
+  background-image: url(images/cover\ of\ magic.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
 }
-.magicdiv2{
-    border-style: solid;
-    border-radius: 10px;
-    margin-left: 170px;
-    line-height: 10px;
-   margin-top:120px;
-   width: 70% ;
-   height: 60%;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   line-height: 60px;
-    align-items: center;
-   word-wrap: break-word;
-   letter-spacing: 1.2px;   
+.magicdiv2 {
+  border-style: solid;
+  border-radius: 10px;
+  margin-left: 170px;
+  line-height: 10px;
+  margin-top: 120px;
+  width: 70%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 60px;
+  align-items: center;
+  word-wrap: break-word;
+  letter-spacing: 1.2px;
 }
-#magich1{
-    font-size: 2.5rem;
+#magich1 {
+  font-size: 2.5rem;
 }
-#magicpara{
-    /* border-style: solid; */
-    font-size: 0.9rem;
-    font-weight: 400;
-    width: 650px;
-    padding:40px;
-    line-height: 1.5;
-    text-align: center;
+#magicpara {
+  /* border-style: solid; */
+  font-size: 0.9rem;
+  font-weight: 400;
+  width: 650px;
+  padding: 40px;
+  line-height: 1.5;
+  text-align: center;
 }
-.cakeicon{
-    font-size: 65px;
-    align-items: center;
-   
+.cakeicon {
+  font-size: 65px;
+  align-items: center;
 }
-#disbutton{
-    border: hidden;
-    border: 2px solid;
-    border-radius: 50px;
-    border-color: #FFFFFF;
-    background-color: transparent;
-    color: #FFFFFF;
-    font-size: 1.125rem;
-    font-weight: 500;
-    padding: 10px 20px;
+#disbutton {
+  border: hidden;
+  border: 2px solid;
+  border-radius: 50px;
+  border-color: #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 1.125rem;
+  font-weight: 500;
+  padding: 10px 20px;
 }
- /* END OF MAGIC  */
- .creaticon{
-    padding-top: 100px;
-    text-align: center;
+/* END OF MAGIC  */
+.creaticon {
+  padding-top: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+#creationh1 {
+  font-size: 2.8rem;
+  color: #4b4342;
+}
+#pinkcake {
+  color: #ff91a4;
+}
+.creationdiv {
+  margin-left: 90px;
+  padding-top: 40px;
+  padding-bottom: 90px;
+  display: flex;
+  width: 85%;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  /* border-style: solid; */
+}
+.creationimg {
+  width: 250px;
+  border-radius: 10px;
+}
+/* END OF CREATION  */
+
+.recipediv {
+  width: 1260px;
+  height: 160vh;
+  background-color: #eeededa4;
+}
+.recipediv::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 1260px;
+  height: 160vh;
+  background-image: url(images/Coverrecipes.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  z-index: -1;
+}
+#contentofrecipe {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#Ingredients {
+  color: #4b4342;
+  font-weight: bold;
+}
+.recipepara {
+  font-family: DMSans, sans-serif;
+  color: #847f7e;
+  text-align: center;
+  font-size: 1.375rem;
+  line-height: 32px;
+}
+#cup {
+  width: 130px;
+  border-radius: 100px;
+}
+.recipeimgdiv {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: #4b4342;
+  font-size: 1.3rem;
+}
+/* end of recipe  */
+.clientsays {
+  background-color: #fa95a0bf;
+  color: #ffffff;
+  width: 100%;
+  height: 124vh;
+}
+.clientsays::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 124vh;
+  background-image: url(images/facescover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+}
+.rowsclients {
+  /* border-style: solid; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.firstrow{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    gap: 40px;
- }
-
- #creationh1{
-    font-size: 2.8rem;
-    color: #4B4342;
-   
- }
- #pinkcake{
-    color: #FF91A4;
- }
- .creationdiv{
-    margin-left: 90px;
-    padding-top: 40px;
-    padding-bottom: 90px;
-    display: flex;
-    width: 85%;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    align-items: center;
-    /* border-style: solid; */
- }
- .creationimg{
-    width: 250px;
-    border-radius: 10px;
- }
- /* END OF CREATION  */
- 
- .recipediv{
-    width: 1260px;
-    height: 160vh;
-     background-color: #eeededa4;
- }
- .recipediv::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    width: 1260px;
-    height: 160vh;
-    background-image: url(images/Coverrecipes.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    z-index: -1;
-}
- #contentofrecipe{
-    padding-top: 60px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
- }
-#Ingredients{
-  
-    color: #4B4342;
-    font-weight: bold;
-}
-.recipepara{
-    font-family: DMSans, sans-serif;
-    color: #847F7E;
-    text-align: center;
-    font-size: 1.375rem;
-    line-height: 32px;
-
-}
-#cup{
-    width: 130px;
-    border-radius: 100px;
-
-}
-.recipeimgdiv{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:20px;
-    color: #4B4342;
-    font-size:1.3rem ;
+    gap: 50px;
+}
+#clientheading {
+  text-align: center;
+  font-size: 2.8rem;
+  padding-top: 70px;
+  padding-bottom: 90px;
 }
 
+.facediv {
+  /* border-style: solid; */
+  width: 400px;
+  display: flex;
+  gap: 30px;
+}
+.faces {
+  width: 68px;
+  border-radius: 80px;
+}
+.facespara {
+  word-wrap: break-word;
+  /* border-style: solid; */
+  width: 300px;
+}
+.paracontentfaces {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: lighter;
+  font-family: sans-serif;
 
+}
+.namediv {
+  line-height: 25px;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+}
+.custom{
+    color: #EBE6DD;
+    letter-spacing: 0;
+}
+
+/* END OF CLIENTS  */
