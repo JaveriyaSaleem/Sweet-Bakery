@@ -393,3 +393,124 @@ nav {
 }
 
 /* END OF CLIENTS  */
+/* GetOurSweetNews */
+.GetOurSweetNews{
+  background-color: #403a3acb;
+  color: #FFFFFF;
+width: 100%;
+height: 80vh;
+}
+.getdivforflex{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.GetOurSweetNews::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 80vh;
+  background-image: url(images/Get\ Our\ Sweet\ News\ cover.jpg);
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+#getoursweeth{
+  font-size: 3.6rem;
+  padding-top: 40px;
+
+}
+#getoursweetemail{
+  border: hidden;
+  background-color: transparent;
+  border-style: solid;
+  border-color: #958989;
+  border-radius: 40px;
+  width: 260px;
+  padding: 15px 18px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+#xSubscribe{
+  border: hidden;
+  border-style: hidden;
+  border-radius: 40px;
+  background-color: #5FCAC7;
+  padding: 17px 35px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+
+}
+#emailsubs{
+  display: flex;
+flex-direction: row;
+flex-flow: wrap;
+gap: 30px;
+}
+#followus{
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+#icons{
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+  top: -30px;
+}
+.iconclass{
+    border-style: solid;
+  border-color: #838181;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 20px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+/* <!-- end of Get Our Sweet News --> */
+footer{
+  width: 1263px;
+  height: 40vh;
+  color: white;
+  background-color: #2A2A2A;
+  font-family: DMSans, sans-serif; 
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 210px;
+
+}
+#logotwo{
+  width: 60px;
+    object-fit: cover;
+}
+.ullist{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.logodivpara{
+  padding-top: 50px;
+  padding-right: 120px;
+  /* border-style: solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   align-items: center;
+  gap: 10px;
+}
